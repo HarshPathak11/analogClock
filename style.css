@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 207, 169);
+}
+.main{
+   border: 10px solid black;
+   border-radius: 50%;
+   height: 500px;
+   width: 500px;
+   box-sizing: border-box;
+}
+.face{
+    border-radius: 50%;
+   height: 470px;
+   width: 470px;
+    border-top: 7px solid grey;
+    border-left: 7px solid grey;
+    border-right: 7px solid rgb(197, 172, 172);
+    border-bottom: 7px solid rgb(201, 168, 168);
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Analogue_clock_face.svg/300px-Analogue_clock_face.svg.png ") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .cen{
+    background-color: black;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#second {
+    background-color: black;
+    height: 41%;
+    transform: rotate(270deg);
+    width: 4px;
+    transform-origin: bottom;
+    position: relative;
+    top: -21%;
+}
+#hour {
+    background-color: black;
+    height: 27%;
+    transform: rotate(90deg);
+    width: 8px;
+    transform-origin: bottom;
+    position: relative;
+    top: -14%;
+    left: -1%;
+}
+#minute {
+    background-color: black;
+    height: 31%;
+    transform: rotate(0deg);
+    width: 6px;
+    transform-origin: bottom;
+    position: relative;
+    top: -17%;
+    left: -0.25%;
+}
